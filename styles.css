@@ -2,9 +2,10 @@ test document
 more styling
 .wrapper {
 	display: grid;
-	grid-template-columns: 60px 60px 60px; /* Three equal columns */
+	grid-template-columns: repeat(3, 1fr); /* Three equal columns */
 	gap: 10px 10px; /* Space between grid items */
 	padding: 10px;
+	justify-content: space-evenly;
 }
 .box {
 	background-color: #4CAF50;
