@@ -13,7 +13,7 @@ Colour Scheme
 
 .nav-bar{
   background-color: #1A1A1D;
-  position: fixed;
+  position: relative;
   gap: 0;
   top: 0;
   margin: 0;
@@ -44,6 +44,12 @@ Colour Scheme
   background-color: #3B1C32;
 }
 
+.machine-block {
+  display: flex;
+  justify-content: center;
+  align-items: normal;
+}
+
 body {
   background-color: #3B1C32;
   margin: 0;
@@ -51,6 +57,7 @@ body {
 
 h1 {
   text-align: center;
+  padding: 0 15px;
 }
 
 p {
